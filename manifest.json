@@ -20,7 +20,7 @@
 		"128": "icon.png"
 	},
 	"content_scripts": [{
-		"matches": ["http://*/*", "https://*/*"],
+		"matches": ["http://*/*", "https://*/*, file:///*/*", "*://*/*", "<all_urls>"],
 		"css": ["jquery.qtip.css","styles.css"],
 		"js": ["jquery.js", "jquery.qtip.js", "contentscript.js"]
 	}]
