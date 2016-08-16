@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "CSS Helper",
+	"version": "1.0.0",
+	"description": "CSS Helper is an Extension that displays all relevant CSS Properties of the element currently being hovered over.",
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"<all_urls>"
+	],
+	"web_accessible_resources": ["styles.css"],
+	"author": "Rounak Banik",
+	"icons": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"64": "icon.png",
+		"128": "icon.png"
+	},
+	"content_scripts": [{
+		"matches": ["http://*/*", "https://*/*"],
+		"css": ["styles.css"],
+		"js": ["jquery.js", "contentscript.js"]
+	}]
+}
