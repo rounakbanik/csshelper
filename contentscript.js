@@ -18,7 +18,7 @@ $('*').qtip({ // Grab some elements to apply the tooltip to
     content: {
         text: function() {
         	var styleProps = $(this).css([
-    			"width", "height", "color", "background-color", "font-family", "font-size", "letter-spacing", "color", "display"
+    			"width", "height", "color", "background-color", "font-family", "font-size", "font-weight", "letter-spacing", "color", "display"
   			]);
   			var texter = "<h3>CSS Properties</h3><br><ul>";
   			$.each( styleProps, function( prop, value ) {
