@@ -42,11 +42,11 @@ $('p, a, h3, h1, h2, h4, h5, h6, blockquote, li, span, b, i, em, strong').qtip({
           var styleProps = $(this).css([
           "font-family", "font-size", "font-weight", "font-style", "color", "letter-spacing", "line-height", "text-decoration"
         ]);
-        var texter = "<h3>CSS Properties</h3><br><ul>";
+        var texter = "";
         $.each( styleProps, function( prop, value ) {
-          texter += "<li><b>" + prop + ":</b> " + value + "</li>";
+          texter += "<b>" + prop + ":</b> " + value + "<br>";
         });
-        texter += "</ul>"
+        //texter += ""
           return texter;
         },
     },
