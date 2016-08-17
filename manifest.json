@@ -9,7 +9,8 @@
 		"<all_urls>"
 	],
 	"browser_action": {
-		"default_icon": "icon.png"
+		"default_icon": "icon.png",
+		"default_title": "CSS Helper"
 	},
 	"author": "Rounak Banik",
 	"icons": {
@@ -17,6 +18,9 @@
 		"32": "icon.png",
 		"64": "icon.png",
 		"128": "icon.png"
+	},
+	"background": {
+		"page": "background.html"
 	},
 	"content_scripts": [{
 		"matches": ["http://*/*", "https://*/*, file:///*/*", "*://*/*", "<all_urls>"],
