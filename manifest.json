@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "CSS Helper",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "CSS Helper is an Extension that displays all relevant CSS Properties of the element currently being hovered over.",
 	"permissions": [
 		"tabs",
