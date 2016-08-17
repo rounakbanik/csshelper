@@ -18,7 +18,9 @@ websites.</p>
 
 <h2>Use</h2>
 <ul>
-<li>While on Chrome, the mouse cursor will be followed continuously by a popup bubble that will display the CSS properties of 
+<li>Click on the 'Image Enlarger' Extension icon next to your address bar to enable the extension. Click again to disable. The extension will
+toggle between clicks.</li>
+<li>While enabled on Chrome, the mouse cursor will be followed continuously by a popup bubble that will display the CSS properties of 
 the hovered element and its corresponding value.</li>
 <li>Since jQuery usually detects the parent elements rather than the nested children, consider taking your cursor out of
 the body of the tab and repointing it at the element if you detect incorrect values being displayed due to update failure.</li>

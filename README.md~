@@ -23,3 +23,13 @@ the hovered element and its corresponding value.</li>
 <li>Since jQuery usually detects the parent elements rather than the nested children, consider taking your cursor out of
 the body of the tab and repointing it at the element if you detect incorrect values being displayed due to update failure.</li>
 </ul>
+
+<h2>Update</h2>
+<p>CSS Helper now works for specific CSS elements and displays a set of properties and their correspoding values for that particular
+hovered element.</p>
+
+<h2>List of CSS Elements</h2>
+<p>h1, h2, h3, h4, h5, h6, p, span, li, b, i, em, strong, blockquote, a, li
+
+<h2>List of CSS Properties</h2>
+<p>font-family, font-size, font-weight, font-style, color, letter-spacing, line-height, text-decoration</p>
