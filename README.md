@@ -1,4 +1,4 @@
-<h1>CSS Helper Chrome Extension</h1>
+<h1><a href='https://chrome.google.com/webstore/detail/css-helper/eidlalmjabcfgiimceghbmhjmhkpjclj'>CSS Helper Chrome Extension</a></h1>
 
 <p>CSS Helper is a Chrome Extension that displays all relevant CSS Properties of the element currently being hovered over.</p>
 <p>Presently, the extension shows a set of predefined CSS properties and their corresponding values for the hovered element. 
@@ -14,7 +14,7 @@ websites.</p>
 <li>Select 'Enable'</li>
 </ol>
 
-<p>I will upload the Extension to the Chrome Web App Store soon.</p>
+<p>The app is live now. You can find it <a href="https://chrome.google.com/webstore/detail/css-helper/eidlalmjabcfgiimceghbmhjmhkpjclj">here</a></p>
 
 <h2>Use</h2>
 <ul>
@@ -36,7 +36,7 @@ hovered element.</p>
 <h2>List of CSS Properties</h2>
 <p>font-family, font-size, font-weight, font-style, color, letter-spacing, line-height, text-decoration</p>
 
-<p>Here are a few screenshots: </p>
+<h2>Screenshots: </h2>
 ![alt tag](https://github.com/rounakbanik/csshelper/blob/master/screenshots/1.png)
 <br>
 ![alt tag](https://github.com/rounakbanik/csshelper/blob/master/screenshots/2.png)
