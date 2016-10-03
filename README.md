@@ -35,3 +35,8 @@ hovered element.</p>
 
 <h2>List of CSS Properties</h2>
 <p>font-family, font-size, font-weight, font-style, color, letter-spacing, line-height, text-decoration</p>
+
+<p>Here are a few screenshots: </p>
+![alt tag](https://github.com/rounakbanik/csshelper/blob/master/screenshots/1.png)
+<br>
+![alt tag](https://github.com/rounakbanik/csshelper/blob/master/screenshots/2.png)
